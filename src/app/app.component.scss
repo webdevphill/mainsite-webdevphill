@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  margin: 10px auto;
+  width: 50%;
+  justify-content: center;
+
+  img {
+    margin: 10px;
+    width: 20%;
+  }
+
+  h1 {
+    margin: 10px;
+    min-width: 30%;
+    align-self: center;
+    font-family: 'Righteous', cursive;
+    color: #666666;
+    //font-family: 'Bowlby One SC', cursive;
+    //font-family: 'Viga', sans-serif;
+    //font-family: 'Baloo Bhaina', cursive;
+  }
+
+  .left {
+    text-align: left;
+  }
+
+  .right {
+    text-align: right;
+  }
+}
+
+.sites-container {
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 2rem;
+}
+
+.iframe-wrapper {
+  display: block;
+  overflow: hidden;
+  padding-top: 50%;
+  position: relative;
+  box-shadow: 0 7px 15px #828282;
+  margin: 20px;
+
+    iframe {
+    background: #fff;
+    color: none;
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
