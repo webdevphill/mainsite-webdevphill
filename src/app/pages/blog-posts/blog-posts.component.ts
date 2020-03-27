@@ -10,6 +10,7 @@ export class BlogPostsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
