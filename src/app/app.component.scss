@@ -4,6 +4,26 @@
   width: 50%;
   justify-content: center;
 
+  .logo-wrap {
+    display: flex;
+    margin: 24px auto;
+    height: 140px;
+    width: 415px;
+    border-radius: 70px;
+    background-color: #f1f1f1;
+    box-shadow: inset 0px 12px 16px 0 rgba(0, 0, 0, 0.1), inset 0px -12px 16px 0 rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    .header-logo {
+      display: flex;
+      margin: auto;
+      width: 375px;
+      height: 100px;
+      justify-content: center;
+      border-radius: 50px;
+      background-color: #f1f1f1;
+      box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.1), 0px -12px 16px 0 rgb(255, 255, 255);
+    }
+  }
   .logo {
     width: 30%;
     min-width: 80px;
@@ -18,7 +38,7 @@
     margin: 10px;
     font-size: 3rem;
     align-self: center;
-    font-family: 'Righteous', cursive;
+    font-family: "Righteous", cursive;
     color: #666666;
     width: 175px;
     //font-family: 'Bowlby One SC', cursive;
@@ -36,9 +56,6 @@
     margin-right: 0;
   }
 }
-
-
-
 
 // max width 575
 // sites header wrap
