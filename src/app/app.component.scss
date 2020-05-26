@@ -27,10 +27,11 @@
     }
   }
   .logo {
-    width: 30%;
-    min-width: 80px;
-    max-width: 180px;
-    margin: 5px;
+    min-width: 100px;
+    height: 80px;
+    margin: auto;
+    border-radius: 69px;
+    background: #666666;
 
     @media screen and (max-width: 350px) {
       min-width: 0px;
@@ -38,25 +39,20 @@
   }
 
   .title {
-    margin: 15px;
     font-size: 3rem;
     align-self: center;
     font-family: "Righteous", cursive;
     color: #666666;
-    width: 175px;
-    //font-family: 'Bowlby One SC', cursive;
-    //font-family: 'Viga', sans-serif;
-    //font-family: 'Baloo Bhaina', cursive;
   }
 
   .left {
     text-align: center;
-    margin-left: 0;
+    margin: 0 15px 0 0;
   }
 
   .right {
     text-align: center;
-    margin-right: 0;
+    margin: 0 0 0 15px;
   }
 }
 
