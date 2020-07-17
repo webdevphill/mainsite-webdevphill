@@ -1,0 +1,66 @@
+@import 'src/sass/__variables';
+
+.header {
+  display: flex;
+  margin: 10px auto;
+  width: 50%;
+  justify-content: center;
+
+  .logo-wrap {
+    display: flex;
+    margin: 24px auto;
+    height: 140px;
+    width: 415px;
+    border-radius: 70px;
+    background-color: $color-header-background;
+    box-shadow: inset 0px 12px 16px 0 rgba(0, 0, 0, 0.1), inset 0px -12px 16px 0 rgb(255, 255, 255);
+    border: 1px solid $color-border-logo;
+    flex-shrink: 0;
+
+    .header-logo {
+      display: flex;
+      margin: auto;
+      width: 375px;
+      height: 100px;
+      justify-content: center;
+      border-radius: 50px;
+      background-color: $color-header-background;
+      box-shadow: 0px 12px 16px 0 rgba(0, 0, 0, 0.1), 0px -12px 16px 0 rgb(255, 255, 255);
+    }
+  }
+
+  .logo {
+    min-width: 100px;
+    height: 80px;
+    margin: auto;
+    border-radius: 69px;
+    background: $color-darkgrey;
+
+    @media screen and (max-width: 350px) {
+      min-width: 0px;
+    }
+  }
+
+  .title {
+    font-size: 3rem;
+    align-self: center;
+    font-family: "Righteous", cursive;
+    color: $color-darkgrey;
+  }
+
+  .left {
+    text-align: center;
+    margin: 0 15px 0 0;
+  }
+
+  .right {
+    text-align: center;
+    margin: 0 0 0 15px;
+  }
+}
+
+// max width 575
+// sites header wrap
+// header text wrap
+// reduce products top margin
+//
