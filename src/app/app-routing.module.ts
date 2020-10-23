@@ -6,15 +6,7 @@ import { SitesComponent } from './pages/sites/sites.component';
 
 
 const routes: Routes = [
-  { path: '', component: SitesComponent },
-  {
-    path: 'blog',
-    children: [
-      { path: '', component: BlogPostsComponent },
-      { path: 'posts', component: BlogPostsComponent },
-      { path: 'post/:id', component: BlogPostComponent }
-    ]
-  }
+  { path: '', component: SitesComponent }
 ];
 
 @NgModule({
